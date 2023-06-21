@@ -31,9 +31,6 @@ addAction(
   },
   [monaco.KeyMod.chord(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KEY_S)]
 );
-addAction("clear-editor", "Clear", function () {
-  editor.setValue("");
-});
 addAction(
   "refresh",
   "Refresh",
