@@ -24,14 +24,6 @@ addAction(
   [monaco.KeyMod.chord(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KEY_H)]
 );
 addAction(
-  "save",
-  "Save",
-  function () {
-    saveTextAs(editor.getValue(), "script.lua");
-  },
-  [monaco.KeyMod.chord(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KEY_S)]
-);
-addAction(
   "refresh",
   "Refresh",
   function () {
