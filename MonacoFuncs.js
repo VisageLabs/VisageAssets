@@ -15,14 +15,13 @@ function addAction(id, label, run, keybinds) {
   }
 
 addAction(
-  "monaco-help",
-  "~ Help",
-  function () {
-    document.location.href =
-      "https://github.com/KanekiCow/ValiantRosploco";
-  },
-  [monaco.KeyMod.chord(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KEY_H)]
-);
+    "monaco-help",
+    "~ Help",
+    function () {
+      alert("Modded monaco by EthanMcBloxxer, luaparse + some extra features by KanekiCow.\nhttps://github.com/KanekiCow/ValiantRosploco");
+    },
+    [monaco.KeyMod.chord(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KEY_H)]
+  );
 addAction(
   "refresh",
   "Refresh",
