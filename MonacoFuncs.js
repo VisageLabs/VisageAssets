@@ -18,7 +18,7 @@ addAction(
     "monaco-help",
     "~ Help",
     function () {
-      alert("Modded monaco by EthanMcBloxxer, luaparse + some extra features by KanekiCat.\nhttps://github.com/KanekiCow/ValiantRosploco");
+      alert("Modded monaco editor by EthanMcBloxxer, luaparse + some extra features by KanekiCat, along with Whoman fixing the error amount issue (it's a bit complicated, won't explain further).\nhttps://github.com/KanekiCow/ValiantRosploco");
     },
     [monaco.KeyMod.chord(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KEY_H)]
   );
