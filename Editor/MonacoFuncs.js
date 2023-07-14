@@ -56,6 +56,17 @@ var setImage = function (x) {
     "url=(" + x + ")";
 };
 
+        
+var ReplaceSelection = function(txt)
+{
+    let selection = editor.getSelection();
+
+    editor.executeEdits('replaceSelection', [{
+        range: new monaco.Range(selection.startLineNumber, selection.startColumn, selection.endLineNumber, selection.endColumn),
+        text: txt
+    }]);
+}
+
 var switchMinimap = function (flag) {
   editor.updateOptions({ minimap: { enabled: flag } });
 };
