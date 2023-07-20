@@ -18,7 +18,7 @@ addAction(
     "monaco-help",
     "~ Help",
     function () {
-      alert("Modded monaco editor by EthanMcBloxxer, luaparse + some extra features by KanekiCat, along with Whoman fixing the error amount issue (it's a bit complicated, won't explain further).\nhttps://github.com/KanekiCow/ValiantRosploco");
+      alert("Modded Monaco editor by EthanMcBloxxer, luaparse + some extra features by KanekiCat, along with Whoman fixing the error amount issue (it's a bit complicated, won't explain further).\nhttps://github.com/KanekiCow/ValiantRosploco");
     },
     [monaco.KeyMod.chord(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KEY_H)]
   );
@@ -55,17 +55,6 @@ var setImage = function (x) {
   document.getElementsByClassName("margin")[0].style.backgroundImage =
     "url=(" + x + ")";
 };
-
-        
-var ReplaceSelection = function(txt)
-{
-    let selection = editor.getSelection();
-
-    editor.executeEdits('replaceSelection', [{
-        range: new monaco.Range(selection.startLineNumber, selection.startColumn, selection.endLineNumber, selection.endColumn),
-        text: txt
-    }]);
-}
 
 var switchMinimap = function (flag) {
   editor.updateOptions({ minimap: { enabled: flag } });
