@@ -1097,4 +1097,4 @@ Did you actually expect something to be here, well something IS here, and it's t
 
 
 
-Ur Mom Fat, Why Are You Even Here ;-;
+🤓: uh leave this area of residence
