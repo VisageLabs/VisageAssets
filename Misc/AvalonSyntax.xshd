@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <SyntaxDefinition name="Lua" extensions=".lua" xmlns="http://icsharpcode.net/sharpdevelop/syntaxdefinition/2008">
-	<Color name="Comment" foreground="#69676c" />
-	<Color name="String" foreground="#ADF195" />
-	<Color name="Foreground" foreground="#c8c8c8" />
-	<Color name="Punctuation" foreground="#c8c8c8" />
-	<Color name="MethodCall" foreground="#84D6F7" />
-	<Color name="Literals" foreground="#FFC600"/>
-	<Color name="Keywords" foreground="#F86D7C" fontWeight="bold"/>
-	<Color name="Escapes" foreground="#948ae3" />
+	<Color name="Comment" foreground="#939393" fontStyle="italic"/>
+	<Color name="String" foreground="#6EF7A9" />
+	<Color name="Foreground" foreground="#E1E1E1" />
+	<Color name="Punctuation" foreground="#E1E1E1" />
+	<Color name="MethodCall" foreground="#8ED6F7" />
+	<Color name="Literals" foreground="#D2AC28"/>
+	<Color name="Keywords" foreground="#F12F55" fontWeight="bold"/>
+	<Color name="Escapes" foreground="#948AE3" />
 
 	<RuleSet>
 		<!-- Mark previous rule-->
@@ -26,12 +26,12 @@
 			[\)\(*\&amp;\^\%\$\#@!\\\]\[;':",./&lt;&gt;?\{\}\|\-\=\+]+
 		</Rule>
 
-		<Span color="Comment" multiline="true">
+		<Span color="Comment" multiline="true" fontStyle="italic">
 			<Begin>--\[[=]*\[</Begin>
 			<End>\][=]*\]</End>
 		</Span>
 
-		<Span color="Comment">
+		<Span color="Comment" fontStyle="italic">
 			<Begin>--</Begin>
 		</Span>
 
@@ -59,7 +59,7 @@
 		<Keywords color="Literals">
 			<Word>true</Word>
 			<Word>false</Word>
-			<Word>DesireReborn</Word>
+			<Word>is_visage_closure</Word>
 		</Keywords>
 
 		<Keywords color="Keywords">
@@ -109,6 +109,8 @@
 			<Word>getnilinstances</Word>
 			<Word>getgenv</Word>
 			<Word>getrenv</Word>
+			<Word>getsenv</Word>
+			<Word>getfenv</Word>
 			<Word>getreg</Word>
 			<Word>getgc</Word>
 			<Word>checkcaller</Word>
@@ -116,6 +118,7 @@
 			<Word>getconnections</Word>
 			<Word>hookfunction</Word>
 			<Word>require</Word>
+			<Word>rconsoleprint</Word>
 		</Keywords>
 
 		<Keywords color="Literals">
