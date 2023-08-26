@@ -5,20 +5,23 @@
 		"game": "Universal",
 		"views": "None",
 		"image": "",
-	    "description": "The latest version of Dex Explorer."
+	    "description": "The latest version of Dex Explorer.",
+		"patched": false
 	},
 	{
 		"name": "Infinite Yield",
 		"src": "loadstring(game:HttpGet('https://github.com/EdgeIY/infiniteyield/raw/master/source', true))()",
 		"game": "Universal",
 		"views": "None",
-		"image": "A well known admin script."
+		"image": "A well known admin script.",
+		"patched": false
 	},
 	{
 		"name": "CMD-X",
 		"src": "loadstring(game:HttpGet('https://github.com/CMD-X/CMD-X/raw/master/Source', true))()",
 		"game": "Universal",
 		"views": "None",
-		"image": "Another well known admin script."
+		"image": "Another well known admin script.",
+		"patched": false
 	}
 ]
