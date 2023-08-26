@@ -1,0 +1,24 @@
+[
+  	{
+		"name": "Dex Explorer V5",
+		"src": "loadstring(game:HttpGet('https://github.com/infyiff/backup/raw/main/dex.lua', true))()",
+		"game": "Universal",
+		"views": "None",
+		"image": "",
+	    "description": "The latest version of Dex Explorer."
+	},
+	{
+		"name": "Infinite Yield",
+		"src": "loadstring(game:HttpGet('https://github.com/EdgeIY/infiniteyield/raw/master/source', true))()",
+		"game": "Universal",
+		"views": "None",
+		"image": "A well known admin script."
+	},
+	{
+		"name": "CMD-X",
+		"src": "loadstring(game:HttpGet('https://github.com/CMD-X/CMD-X/raw/master/Source', true))()",
+		"game": "Universal",
+		"views": "None",
+		"image": "Another well known admin script."
+	}
+]
