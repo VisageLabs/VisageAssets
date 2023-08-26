@@ -6,6 +6,7 @@
 		"views": "None",
 		"image": "",
 	    "description": "The latest version of Dex Explorer.",
+		"keyLink": "",
 		"patched": false
 	},
 	{
@@ -14,6 +15,7 @@
 		"game": "Universal",
 		"views": "None",
 		"image": "A well known admin script.",
+		"keyLink": "",
 		"patched": false
 	},
 	{
@@ -22,6 +24,7 @@
 		"game": "Universal",
 		"views": "None",
 		"image": "Another well known admin script.",
+		"keyLink": "",
 		"patched": false
 	}
 ]
