@@ -3,9 +3,9 @@
 		"name": "Dex Explorer V5",
 		"src": "loadstring(game:HttpGet('https://github.com/infyiff/backup/raw/main/dex.lua', true))()",
 		"game": "Universal",
-		"views": "None",
-		"image": "",
-	    "description": "The latest version of Dex Explorer.",
+		"views": "",
+		"image": "https://user-images.githubusercontent.com/72479668/134221104-95ef1ac5-4b10-4d90-82d6-0b41cc151885.png",
+		"description": "The latest version of Dex Explorer.",
 		"keyLink": "",
 		"patched": false
 	},
@@ -13,17 +13,19 @@
 		"name": "Infinite Yield",
 		"src": "loadstring(game:HttpGet('https://github.com/EdgeIY/infiniteyield/raw/master/source', true))()",
 		"game": "Universal",
-		"views": "None",
-		"image": "A well known admin script.",
+		"views": "",
+		"image": "https://i.ytimg.com/vi/ggoTO-ukvbI/hqdefault.jpg",
+		"description": "A well known admin script.",
 		"keyLink": "",
 		"patched": false
 	},
 	{
 		"name": "CMD-X",
-		"src": "loadstring(game:HttpGet('https://github.com/CMD-X/CMD-X/raw/master/Source', true))()",
+		"src": "--[[----------------------------------------------------------------\n|                ▄▀▄▄▄▄   ▄▀▀▄ ▄▀▄  ▄▀▀█▄▄   ▄▀▀▄  ▄▀▄             |\n|               █ █    ▌ █  █ ▀  █ █ ▄▀   █ █    █   █             |\n|              ▐ █      ▐  █    █ ▐ █    █ ▐     ▀▄▀               |\n|                █        █    █    █    █      ▄▀ █               |\n|               ▄▀▄▄▄▄▀ ▄▀   ▄▀    ▄▀▄▄▄▄▀     █  ▄▀               |\n|              █     ▐  █    █    █     ▐    ▄▀  ▄▀                |\n|              ▐        ▐    ▐    ▐         █    ▐                 |\n|               ▐        ▐    ▐    ▐         █    ▐                |\n|------------------------------------------------------------------|\n|    Credits:    | Binds & Info:                                   |\n|    pigeon#1818 | U                         Open and close output |\n|        hz#4777 | RShift                          Fill suggestion |\n|     Curvn#2646 | ;                               Focus on CMDBar |\n| -------------- | Q                                Open and close |\n|                | LShift+Bksp                        Clear CMDbar |\n|                |                                                 |\n|                | .cmds                             List commands |\n----------------------------------------------------------------]]--\nloadstring(game:HttpGet('https://github.com/CMD-X/CMD-X/raw/master/Source', true))()",
 		"game": "Universal",
-		"views": "None",
+		"views": "https://i.imgur.com/NJzI3lh.png",
 		"image": "Another well known admin script.",
+		"description": "Another well known admin script with 600+ commands.",
 		"keyLink": "",
 		"patched": false
 	}
