@@ -41,7 +41,7 @@
 	},
 	{
 		"name": "Pikachu Hub",
-		"src": "--[[----------------------------------------------------------------\n|                ▄▀▄▄▄▄   ▄▀▀▄ ▄▀▄  ▄▀▀█▄▄   ▄▀▀▄  ▄▀▄             |\n|               █ █    ▌ █  █ ▀  █ █ ▄▀   █ █    █   █             |\n|              ▐ █      ▐  █    █ ▐ █    █ ▐     ▀▄▀               |\n|                █        █    █    █    █      ▄▀ █               |\n|               ▄▀▄▄▄▄▀ ▄▀   ▄▀    ▄▀▄▄▄▄▀     █  ▄▀               |\n|              █     ▐  █    █    █     ▐    ▄▀  ▄▀                |\n|              ▐        ▐    ▐    ▐         █    ▐                 |\n|               ▐        ▐    ▐    ▐         █    ▐                |\n|------------------------------------------------------------------|\n|    Credits:    | Binds & Info:                                   |\n|    pigeon#1818 | U                         Open and close output |\n|        hz#4777 | RShift                          Fill suggestion |\n|     Curvn#2646 | ;                               Focus on CMDBar |\n| -------------- | Q                                Open and close |\n|                | LShift+Bksp                        Clear CMDbar |\n|                |                                                 |\n|                | .cmds                             List commands |\n----------------------------------------------------------------]]--\nloadstring(game:HttpGet('https://github.com/CMD-X/CMD-X/raw/master/Source', true))()",
+		"src": "loadstring(game:HttpGet('https://api.luarmor.net/files/v3/loaders/99d16edc79729a038994f85ce7335971.lua'))()",
 		"game": "Arm Wrestling Simulator",
 		"views": "",
 		"image": "https://github.com/TERIHAX/Assets/raw/main/ArmWrestlingSimulator.png",
