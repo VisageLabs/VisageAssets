@@ -40,6 +40,16 @@
 		"patched": false
 	},
 	{
+		"name": "Hydroxide",
+		"src": "local owner = 'Upbolt'\nlocal branch = 'revision'\nlocal function webImport(file)\n    return loadstring(game:HttpGetAsync(('https://github.com/%s/Hydroxide/raw/%s/%s.lua'):format(owner, branch, file)), file .. '.lua')()\nend\nwebImport('init')\nwebImport('ui/main')",
+		"game": "Universal",
+		"views": "",
+		"image": "https://github.com/TERIHAX/Assets/raw/main/hydroxide.png",
+		"description": "General purpose pen-testing tool for games on the Roblox engine.",
+		"keyLink": "",
+		"patched": false
+	},
+	{
 		"name": "Pikachu Hub",
 		"src": "loadstring(game:HttpGet('https://api.luarmor.net/files/v3/loaders/99d16edc79729a038994f85ce7335971.lua'))()",
 		"game": "Arm Wrestling Simulator",
