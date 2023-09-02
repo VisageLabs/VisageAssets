@@ -2,7 +2,9 @@
 
 document.querySelectorAll('.css-175oi2r.r-ymttw5.r-1l7z4oj.r-2jelyo').forEach(e => e.remove());
 
-document.head.appendChild(document.createElement('style').innerHTML = `
+let style = document.createElement('style');
+	
+style.innerHTML = `
 *::-webkit-scrollbar {
     width: 7px;
 }
@@ -22,4 +24,6 @@ document.head.appendChild(document.createElement('style').innerHTML = `
 *::-webkit-scrollbar-thumb:hover {
 	opacity: 0.7;
 }
-`);
+`
+
+document.head.appendChild(style);
