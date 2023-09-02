@@ -32,9 +32,14 @@ style.innerHTML = `
 
 document.head.appendChild(style);
 
+/*
 function handleContextMenu(event)
 {
     event.preventDefault();
 }
 
 document.addEventListener('contextmenu', handleContextMenu);
+*/
+
+// from https://codepen.io/knyttneve/pen/YzxEBew
+
