@@ -31,12 +31,14 @@ style.innerHTML = `
 	opacity: 0.7;
 }
 
-npm__react-simple-code-editor__textarea {
+textarea {
 	font-family: 'JetBrains Mono', Hack, Consolas, Monaco, 'Courier New', monospace;
 }
 `
 
 document.head.appendChild(style);
+
+document.querySelectorAll('.npm__react-simple-code-editor__textarea').forEach(e => e.style.fontFamily = 'JetBrains Mono');
 
 /*
 function handleContextMenu(event)
