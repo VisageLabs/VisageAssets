@@ -29,6 +29,10 @@ style.innerHTML = `
 {
 	opacity: 0.7;
 }
+
+code {
+	font-family: 'JetBrains Mono', monospace;
+}
 `
 
 document.head.appendChild(style);
