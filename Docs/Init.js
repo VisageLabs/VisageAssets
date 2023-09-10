@@ -29,7 +29,7 @@ style.innerHTML = `
 	opacity: 0.7;
 }
 
-code {
+npm__react-simple-code-editor__textarea {
 	font-family: 'JetBrains Mono', monospace;
 }
 `
