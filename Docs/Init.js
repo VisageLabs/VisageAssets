@@ -38,6 +38,7 @@ textarea {
 
 document.head.appendChild(style);
 
+document.querySelectorAll('.language-lua').forEach(e => e.style.fontFamily = 'JetBrains Mono');
 document.querySelectorAll('.npm__react-simple-code-editor__textarea').forEach(e => e.style.fontFamily = 'JetBrains Mono');
 
 /*
