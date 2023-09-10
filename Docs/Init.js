@@ -2,13 +2,12 @@
 
 // document.querySelectorAll('.css-175oi2r.r-ymttw5.r-1l7z4oj.r-2jelyo').forEach(e => e.remove());
 
-/*
 let style = document.createElement('style');
 	
 style.innerHTML = `
 *::-webkit-scrollbar
 {
-    width: 7px;
+	width: 7px;
 }
 
 *::-webkit-scrollbar-track
@@ -36,7 +35,6 @@ code {
 `
 
 document.head.appendChild(style);
-*/
 
 /*
 function handleContextMenu(event)
