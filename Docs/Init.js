@@ -5,6 +5,8 @@
 let style = document.createElement('style');
 	
 style.innerHTML = `
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 *::-webkit-scrollbar
 {
 	width: 7px;
@@ -30,7 +32,7 @@ style.innerHTML = `
 }
 
 npm__react-simple-code-editor__textarea {
-	font-family: 'JetBrains Mono', monospace;
+	font-family: 'JetBrains Mono', Hack, Consolas, Monaco, 'Courier New', monospace;
 }
 `
 
