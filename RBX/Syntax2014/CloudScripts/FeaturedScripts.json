@@ -1,0 +1,62 @@
+[
+  	{
+		"name": "Dex Explorer V5",
+		"src": "loadstring(game:HttpGet('https://github.com/infyiff/backup/raw/main/dex.lua', true))()",
+		"game": "Universal",
+		"views": "",
+		"image": "https://user-images.githubusercontent.com/72479668/134221104-95ef1ac5-4b10-4d90-82d6-0b41cc151885.png",
+		"description": "The latest version of Dex Explorer.",
+		"keyLink": "",
+		"patched": false
+	},
+	{
+		"name": "Infinite Yield",
+		"src": "loadstring(game:HttpGet('https://github.com/EdgeIY/infiniteyield/raw/master/source', true))()",
+		"game": "Universal",
+		"views": "",
+		"image": "https://i.ytimg.com/vi/ggoTO-ukvbI/hqdefault.jpg",
+		"description": "A well known admin script.",
+		"keyLink": "",
+		"patched": false
+	},
+	{
+		"name": "CMD-X",
+		"src": "--[[----------------------------------------------------------------\n|                ▄▀▄▄▄▄   ▄▀▀▄ ▄▀▄  ▄▀▀█▄▄   ▄▀▀▄  ▄▀▄             |\n|               █ █    ▌ █  █ ▀  █ █ ▄▀   █ █    █   █             |\n|              ▐ █      ▐  █    █ ▐ █    █ ▐     ▀▄▀               |\n|                █        █    █    █    █      ▄▀ █               |\n|               ▄▀▄▄▄▄▀ ▄▀   ▄▀    ▄▀▄▄▄▄▀     █  ▄▀               |\n|              █     ▐  █    █    █     ▐    ▄▀  ▄▀                |\n|              ▐        ▐    ▐    ▐         █    ▐                 |\n|               ▐        ▐    ▐    ▐         █    ▐                |\n|------------------------------------------------------------------|\n|    Credits:    | Binds & Info:                                   |\n|    pigeon#1818 | U                         Open and close output |\n|        hz#4777 | RShift                          Fill suggestion |\n|     Curvn#2646 | ;                               Focus on CMDBar |\n| -------------- | Q                                Open and close |\n|                | LShift+Bksp                        Clear CMDbar |\n|                |                                                 |\n|                | .cmds                             List commands |\n----------------------------------------------------------------]]--\nloadstring(game:HttpGet('https://github.com/CMD-X/CMD-X/raw/master/Source', true))()",
+		"game": "Universal",
+		"views": "",
+		"image": "https://i.imgur.com/NJzI3lh.png",
+		"description": "Another well known admin script with 600+ commands.",
+		"keyLink": "",
+		"patched": false
+	},
+	{
+		"name": "Simple Spy",
+		"src": "loadstring(game:HttpGet('https://github.com/TERIRepoBackups/SimpleSpySource/raw/master/loadstring.lua', true))()",
+		"game": "Universal",
+		"views": "",
+		"image": "https://github.com/TERIRepoBackups/SimpleSpySource/raw/master/assets/example-1.png",
+		"description": "SimpleSpy is a penetration testing tool designed to intercept remote calls from the client to the server.\n\nSimpleSpy is designed to be the \"default\" remote spy and built with minimal bloat, performance, and reliability in mind. You can find SimpleSpy in places such as Infinite Yield, CMD-X, and more.",
+		"keyLink": "",
+		"patched": false
+	},
+	{
+		"name": "Hydroxide",
+		"src": "local owner = 'Upbolt'\nlocal branch = 'revision'\nlocal function webImport(file)\n    return loadstring(game:HttpGetAsync(('https://github.com/%s/Hydroxide/raw/%s/%s.lua'):format(owner, branch, file)), file .. '.lua')()\nend\nwebImport('init')\nwebImport('ui/main')",
+		"game": "Universal",
+		"views": "",
+		"image": "https://github.com/TERIHAX/Assets/raw/main/hydroxide.png",
+		"description": "General purpose pen-testing tool for games on the Roblox engine.",
+		"keyLink": "",
+		"patched": false
+	},
+	{
+		"name": "Pikachu Hub",
+		"src": "loadstring(game:HttpGet('https://api.luarmor.net/files/v3/loaders/99d16edc79729a038994f85ce7335971.lua'))()",
+		"game": "Arm Wrestling Simulator",
+		"views": "",
+		"image": "https://github.com/TERIHAX/Assets/raw/main/ArmWrestlingSimulator.png",
+		"description": "Pikachu | Arm Wrestling Simulator\nThe best Arm Wrestle Simulator script by far, with its revolutionary Auto Farm and Auto Wrestle you'll dominate the game in mere seconds!\nFeatures:\nAuto Event\nAuto Farm\nAuto Hatch\nTeam Saving\nStat Tracker\nWebhook Integrations\nAnd so much more!\nDiscord: https://discord.gg/PikachuHub",
+		"keyLink": "",
+		"patched": false
+	}
+]
